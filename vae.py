@@ -21,6 +21,11 @@ from numpy import random
 import numpy as np
 np.random.seed(32689)
 
+"""
+Variational Autoencoder implementation heavily inspired by Francois Chollet @fchollet
+"""
+
+
 
 """
 Defining a couple things
