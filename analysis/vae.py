@@ -39,29 +39,9 @@ epsilon_std = 0.01
 
 
 """
-Data generation (see ipython notebook to look at it!)
+Data generation
 """
-ax = np.random.normal(3, 0.5, (100))
-ay = np.random.normal(3, 0.5, (100))
-theta = 35
-axneg = np.random.normal(-3, 0.5, (100))
-ayneg = np.random.normal(-3, 0.5, (100))
-x1 = np.concatenate((ax,axneg))
-y1 = np.concatenate((ay,ayneg))
 
-
-bx = np.random.normal(3, 0.5, (100))
-by = np.random.normal(-3, 0.5, (100))
-theta = 35
-bxneg = np.random.normal(-3, 0.5, (100))
-byneg = np.random.normal(3, 0.5, (100))
-x2 = np.concatenate((bx,bxneg))
-y2 = np.concatenate((by,byneg))
-
-x = np.concatenate((x1,x2))
-y = np.concatenate((y1,y2))
-
-x_train = np.vstack((x,y)).transpose()
 
 
 """
