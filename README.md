@@ -1,6 +1,6 @@
 # Warp: a method for neural network interpretability applied to gene expression profiles
 
-
+# Watch out: version is outdated!
 Project for which I submitted an abstract to the NIPS2016 workshop Machine Learning in Computational Biology
 http://bioinfo.iric.ca/~trofimov/MLCB_NIPS2016_Abstract.pdf
 Abstract's abstract (!):
